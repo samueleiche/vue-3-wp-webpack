@@ -1,0 +1,9 @@
+$red: #ff0000;
+
+div {
+	object-fit: contain;
+
+	+ div {
+		color: $red;
+	}
+}
